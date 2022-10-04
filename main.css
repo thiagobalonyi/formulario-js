@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: auto;
+    aspect-ratio: 100 / 29;
+}
+
+.box {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    margin: auto;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 350px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: rgb(77, 150, 3);
+    border: none;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffff;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: rgb(116, 189, 44);
+}
